@@ -1,0 +1,66 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: skyblue;
+
+}
+.container{
+	text-transform: capitalize;
+	font-family: sans-serif;
+	font-weight: ;
+	align-content: center;
+	border-bottom: 2px solid white;
+}
+.header{
+	justify-content: center;
+	align-content: center;
+	left: 45%;
+}
+img{
+	margin-left: 50%;
+}
+h1{
+	align-items: center;
+	align-content: center;
+	top: 50px;
+	margin-left: 40%;
+	right: 50px;
+	margin-bottom: 30px;
+}
+form{
+
+}
+input{
+	width: 1550px;
+	margin: 10px;
+	border: none;
+	height: 30px;
+	outline: none;
+}
+input,firstname{
+	margin-top: 20px;
+}
+label{
+	margin: 10px;
+	text-transform: capitalize;
+}
+p{
+	margin-bottom: 0;
+	text-transform: capitalize;
+	padding: 10px;
+}
+::placeholder{
+	color: deeppink;
+}
+button{
+	width: 1500px;
+	border: none;
+	background-color: green;
+	position: absolute;
+	padding: 10px;
+	margin: 10px;
+	font-weight: 400;
+	text-transform: uppercase;
+	align-content: center;
+}

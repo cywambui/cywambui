@@ -1,0 +1,98 @@
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: ;
+}
+body{
+	background: url(girl.jpg);
+	background-size: cover;
+}
+.header{
+	margin: 20px;
+}
+.nav{
+	width: 100%;
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+	background: transparent;
+}
+.hd{
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: 100px;
+	font-family: serif;
+}
+h1{
+	color: gold;
+	margin-top: 30px;
+}
+ul{
+	text-decoration: none;
+}
+ul li{
+	display: inline-block;
+	text-decoration: none;
+	margin: 20px;
+	list-style: none;
+	float: left;
+}
+ul li a{
+	text-decoration: none;
+	padding: 2px;
+	color: white;
+	font-size: 20px;
+	text-transform: capitalize;
+}
+ul li a:hover{
+	padding-left: 10px;
+	color: orange;
+}
+.container{
+	margin: auto;
+	height: 500px;
+	width: 400px;
+	background-color: rgba(0, 0, 0, 0.1);
+	float: left;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+.signup{
+	margin: auto;
+}
+form{
+	padding-top: 25px;
+}
+.log{
+	background: transparent;
+	margin-bottom: 20px;
+	border-color: rgba(0, 0, 0, 1.0);
+	width: 100px;
+	margin-left: 80px;
+}
+input{
+	width: 250px;
+	padding: 10px;
+	margin-left: 100px;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid white;
+	border-left: 2px solid black;
+}
+span{
+	padding: 10px;
+	margin: 10px;
+	color: yellow;
+}
+#terms{
+	margin: 0;
+}
+button{
+	background-color: lightgreen;
+	width: 250px;
+	height: 40px;
+	margin-left: 80px;
+	margin-top: 20px;
+	border-radius: 50px;
+	bottom: 0;
+}
